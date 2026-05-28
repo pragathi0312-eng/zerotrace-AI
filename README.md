@@ -1,6 +1,6 @@
 ZeroTrace AI
 
-**Autonomous AI Security Teammate for Startups**
+**Multi-Agent AI Security Teammate for Startups**
 
 ZeroTrace AI is a multi-agent AI cybersecurity platform that helps startups identify, prioritize, understand, and fix security vulnerabilities before they become real-world breaches.
 Unlike traditional security scanners that generate overwhelming reports, ZeroTrace AI acts like an AI security teammate by reducing alert fatigue and providing actionable remediation guidance for developers.
@@ -36,6 +36,23 @@ The platform focuses on helping developers understand:
 “What actually matters and how to fix it quickly.”
 
 
+**Architectre**
+
+Repository Scan
+      ↓
+Scanner Agent
+      ↓
+Risk Analysis Agent
+      ↓
+Prioritization Agent
+      ↓
+Attack Chain Visualization Agent
+      ↓
+Fix Agent
+      ↓
+Developer Dashboard
+
+
 **Features**
 
 - Repository vulnerability scanning
@@ -52,14 +69,14 @@ The platform focuses on helping developers understand:
 Scanner Agent
 Scans repositories and detects vulnerabilities.
 
-Threat Intelligence Agent
+Risk Intelligence Agent
 Analyzes exploitability and real-world threat severity.
 
 Prioritization Agent
 Filters and ranks critical vulnerabilities to reduce alert fatigue.
 
 Attack chain visualization Agent
-Visualizes how vulnerabilities could lead to real-world breaches.
+Visualizes how vulnerabilities could lead to security incidents.
 
 Fix Agent
 Generates secure remediation suggestions and fixes.
@@ -97,6 +114,6 @@ Creates developer-friendly security reports.
 - Real-time threat intelligence feeds
 - VS Code extension integration
 
-**Team**
 
+**Team**
 AXIONS
