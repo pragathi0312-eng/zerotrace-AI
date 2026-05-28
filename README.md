@@ -86,4 +86,4 @@ Future Scope
 
 Team
 
-ZeroTrace AI Hackathon Team
+AXIONS
