@@ -1,58 +1,85 @@
 ZeroTrace AI
 
-Multi-Agent AI Security Scanner
+**Autonomous AI Security Teammate for Startups**
 
-ZeroTrace AI is an AI-powered multi-agent cybersecurity platform designed to detect vulnerabilities, analyze threats, and generate remediation suggestions for developers in real time.
+ZeroTrace AI is a multi-agent AI cybersecurity platform that helps startups identify, prioritize, understand, and fix security vulnerabilities before they become real-world breaches.
 
----
-
-Problem Statement
-
-Developers often struggle to identify and fix vulnerabilities early in the development lifecycle. Traditional tools generate complex reports without actionable remediation guidance.
-
-ZeroTrace AI solves this problem using collaborative AI agents that scan repositories, classify vulnerabilities, prioritize risks, and suggest secure fixes.
+Unlike traditional security scanners that generate overwhelming reports, ZeroTrace AI acts like an AI security teammate by reducing alert fatigue and providing actionable remediation guidance for developers.
 
 ---
 
-Features
+**Problem Statement**
+
+Modern startups move fast and often lack dedicated security teams.
+
+Traditional security tools generate hundreds of disconnected alerts, making it difficult for developers to:
+
+- identify critical threats
+- understand real-world impact
+- prioritize vulnerabilities
+- fix issues efficiently
+
+This leads to alert fatigue, ignored vulnerabilities, and delayed remediation.
+
+
+**Our Solution**
+
+ZeroTrace AI uses collaborative AI agents to:
+
+- scan repositories
+- analyze vulnerabilities
+- prioritize critical threats
+- simulate attack impact
+- generate secure fixes
+- create developer-friendly reports
+
+The platform focuses on helping developers understand:
+“What actually matters and how to fix it quickly.”
+
+
+**Features**
 
 - Repository vulnerability scanning
-- AI-driven threat analysis
-- Automated remediation suggestions
-- Multi-agent workflow
+- AI-powered threat prioritization
+- Multi-agent security analysis
+- Attack chain visualization
+- AI-generated remediation suggestions
 - Developer-friendly reporting dashboard
 
----
 
-Multi-Agent Architecture
+**Multi-Agent Architecture**
 
-1. Scanner Agent
+Scanner Agent
+Scans repositories and detects vulnerabilities.
 
-Scans source code repositories for vulnerabilities.
+Threat Intelligence Agent
+Analyzes exploitability and real-world threat severity.
 
-2. Vulnerability Agent
+Prioritization Agent
+Filters and ranks critical vulnerabilities to reduce alert fatigue.
 
-Classifies detected vulnerabilities.
+Attack Simulation Agent
+Visualizes how vulnerabilities could lead to real-world breaches.
 
-3. Threat Intelligence Agent
+Fix Agent
+Generates secure remediation suggestions and fixes.
 
-Analyzes severity and potential risks.
+Report Agent
+Creates developer-friendly security reports.
 
-4. Fix Agent
 
-Suggests remediation and secure coding fixes.
+**Workflow**
 
-5. Reviewer Agent
+1. Developer uploads or scans repository
+2. Scanner Agent detects vulnerabilities
+3. AI agents analyze severity and business impact
+4. Critical threats are prioritized
+5. Attack paths are simulated visually
+6. Fix recommendations are generated
+7. Final report is displayed to developers
 
-Validates remediation quality.
 
-6. Report Agent
-
-Generates final developer-friendly reports.
-
----
-
-Tech Stack
+**Tech Stack**
 
 - Python
 - Flask
@@ -60,30 +87,16 @@ Tech Stack
 - HTML
 - CSS
 - JavaScript
-- GitHub
+- GitHub API
 
----
+**Future Scope**
 
-Workflow
-
-1. Upload or scan repository
-2. AI agents analyze source code
-3. Vulnerabilities are detected
-4. Threat severity is calculated
-5. Fix recommendations are generated
-6. Final report is displayed to developers
-
----
-
-Future Scope
-
-- GitHub pull request integration
-- CI/CD pipeline security scanning
+- GitHub Pull Request integration
+- CI/CD security automation
 - AI-powered automated patching
 - Real-time threat intelligence feeds
+- VS Code extension integration
 
----
-
-Team
+**Team**
 
 AXIONS
