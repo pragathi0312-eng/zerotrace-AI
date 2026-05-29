@@ -2,118 +2,99 @@ ZeroTrace AI
 
 **Multi-Agent AI Security Teammate for Startups**
 
-ZeroTrace AI is a multi-agent AI cybersecurity platform that helps startups identify, prioritize, understand, and fix security vulnerabilities before they become real-world breaches.
-Unlike traditional security scanners that generate overwhelming reports, ZeroTrace AI acts like an AI security teammate by reducing alert fatigue and providing actionable remediation guidance for developers.
-ZeroTrace AI reduces alert fatigue by helping developers focus only on vulnerabilities that pose real-world security risks.
+ZeroTrace AI is a multi-agent AI cybersecurity platform that helps developers identify, prioritize, and fix security vulnerabilities in real time.
+It reduces alert fatigue by analyzing threats, visualizing attack paths, and generating actionable remediation suggestions.
 
 
 **Problem Statement**
 
-Modern startups move fast and often lack dedicated security teams.
-
-Traditional security tools generate hundreds of disconnected alerts, making it difficult for developers to:
+Modern startups move fast and often lack dedicated security teams. Traditional security tools generate hundreds of alerts with little context, making it difficult for developers to:
 
 - identify critical threats
-- understand real-world impact
 - prioritize vulnerabilities
+- understand security impact
 - fix issues efficiently
-
-This leads to alert fatigue, ignored vulnerabilities, and delayed remediation.
 
 
 **Our Solution**
 
 ZeroTrace AI uses collaborative AI agents to:
 
-- scan repositories
-- analyze vulnerabilities
+- scan repositories for vulnerabilities
 - prioritize critical threats
-- simulate attack impact
-- generate secure fixes
-- create developer-friendly reports
+- visualize possible attack paths
+- generate secure remediation suggestions
 
-The platform focuses on helping developers understand:
-“What actually matters and how to fix it quickly.”
-
-
-**Architectre**
-
-Repository Scan
-      ↓
-Scanner Agent
-      ↓
-Risk Analysis Agent
-      ↓
-Prioritization Agent
-      ↓
-Attack Chain Visualization Agent
-      ↓
-Fix Agent
-      ↓
-Developer Dashboard
+This helps developers focus only on vulnerabilities that pose real-world security risks.
 
 
 **Features**
 
-- Repository vulnerability scanning
-- AI-powered threat prioritization
-- Multi-agent security analysis
+- Vulnerability scanning
+- Intelligent threat prioritization
 - Attack chain visualization
-- AI-generated remediation suggestions
-- Intelligent alert prioritization 
-- Developer-friendly reporting dashboard
+- AI-generated fix suggestions
+- Developer-friendly dashboard
 
 
 **Multi-Agent Architecture**
 
 Scanner Agent
-Scans repositories and detects vulnerabilities.
+Detects vulnerabilities in repositories.
 
-Risk Intelligence Agent
-Analyzes exploitability and real-world threat severity.
+Risk Analysis Agent
+Analyzes severity and exploitability.
 
 Prioritization Agent
-Filters and ranks critical vulnerabilities to reduce alert fatigue.
+Filters critical threats and reduces alert fatigue.
 
-Attack chain visualization Agent
-Visualizes how vulnerabilities could lead to security incidents.
+Attack Chain Visualization Agent
+Visualizes potential exploit paths.
 
 Fix Agent
-Generates secure remediation suggestions and fixes.
-
-Report Agent
-Creates developer-friendly security reports.
+Generates remediation suggestions.
 
 
-**Workflow**
+**Architecture**
 
-1. Developer uploads or scans repository
-2. Scanner Agent detects vulnerabilities
-3. AI agents analyze severity and business impact
-4. Critical threats are prioritized
-5. Attack paths are simulated visually
-6. Fix recommendations are generated
-7. Final report is displayed to developers
+Repository Scan
+↓
+Risk Analysis
+↓
+Threat Prioritization
+↓
+Attack Chain Visualization
+↓
+Fix Suggestions
 
 
 **Tech Stack**
 
+Backend
 - Python
 - Flask
+
+AI & Security
+- OpenAI API
 - Bandit
+
+Frontend
 - HTML
 - CSS
 - JavaScript
+
+Integrations
 - GitHub API
+
 
 **Future Scope**
 
 - GitHub Pull Request integration
 - CI/CD security automation
 - AI-powered automated patching
-- Real-time threat intelligence feeds
-- VS Code extension integration
+- VS Code extension
 
 
-**Team**
+Team
+
 AXIONS
